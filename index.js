@@ -1,15 +1,13 @@
-function colorGreen() {
-    //document.getElementsByTagName("html").style.backgroundColor = "green";
-    document.body.style.backgroundColor = "green";
-    document.getElementById("#headerTitle").style.color = "rbg(34,34,2)";
+const body = document.getElementsByTagName("body")[0];
 
+function setColor(name) {
+    body.style.backgroundColor = name;
 }
-function colorRed() {
-    document.body.style.backgroundColor = "red";
-}
-function colorBlue() {
-    document.body.style.backgroundColor = "blue";
-}
+
 function randomColor() {
-    document.body.style.backgroundColor = "random";
+    const red = Math.random() * 255;
+    const green = Math.random() * 255;
+    const blue = Math.random() * 255;
+
+    body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`
 }
