@@ -1,0 +1,48 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.header-wrapper {
+    background: peach;
+    min-width: 100vh;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#headerTitle {
+    font-size: 3rem;
+    color: black;
+}
+
+.color-buttons-wrapper {
+    min-width: 100vh;
+    display: flex;
+    justify-items: center;
+}
+
+.colorButton {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 190px;
+    border: solid 0.05rem black;
+    font-size: 2rem;
+}
+
+#changeColorGreen {
+    color: whitesmoke;
+    background: green;
+}
+#changeColorRed {
+    color: whitesmoke;
+    background: red;
+}
+#changeColorBlue {
+    color: whitesmoke;
+    background: blue
+}
+
